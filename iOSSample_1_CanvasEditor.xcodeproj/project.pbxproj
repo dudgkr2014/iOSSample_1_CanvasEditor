@@ -12,6 +12,8 @@
 		E3A6DAF02DBCD56D0035B0CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A6DAE82DBCD56D0035B0CB /* Preview Assets.xcassets */; };
 		E3A6DAF12DBCD56D0035B0CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A6DAEA2DBCD56D0035B0CB /* Assets.xcassets */; };
 		E3A6DAF52DBCD5930035B0CB /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A6DAF42DBCD5930035B0CB /* CanvasViewModel.swift */; };
+		E3A6DAF82DBCDFC20035B0CB /* CanvasItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A6DAF72DBCDFC20035B0CB /* CanvasItem.swift */; };
+		E3A6DAFA2DBCE3BD0035B0CB /* CanvasItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A6DAF92DBCE3BD0035B0CB /* CanvasItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		E3A6DAEB2DBCD56D0035B0CB /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 		E3A6DAEC2DBCD56D0035B0CB /* iOSSample_1_CanvasEditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSSample_1_CanvasEditorApp.swift; sourceTree = "<group>"; };
 		E3A6DAF42DBCD5930035B0CB /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		E3A6DAF72DBCDFC20035B0CB /* CanvasItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasItem.swift; sourceTree = "<group>"; };
+		E3A6DAF92DBCE3BD0035B0CB /* CanvasItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 		E3A6DAED2DBCD56D0035B0CB /* iOSSample_1_CanvasEditor */ = {
 			isa = PBXGroup;
 			children = (
+				E3A6DAF62DBCDFBD0035B0CB /* CanvasItem */,
 				E3A6DAF32DBCD5850035B0CB /* ViewModels */,
 				E3A6DAF22DBCD5700035B0CB /* Views */,
 				E3A6DAE92DBCD56D0035B0CB /* Preview Content */,
@@ -74,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				E3A6DAEB2DBCD56D0035B0CB /* CanvasView.swift */,
+				E3A6DAF92DBCE3BD0035B0CB /* CanvasItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -84,6 +90,14 @@
 				E3A6DAF42DBCD5930035B0CB /* CanvasViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E3A6DAF62DBCDFBD0035B0CB /* CanvasItem */ = {
+			isa = PBXGroup;
+			children = (
+				E3A6DAF72DBCDFC20035B0CB /* CanvasItem.swift */,
+			);
+			path = CanvasItem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,8 +173,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3A6DAF82DBCDFC20035B0CB /* CanvasItem.swift in Sources */,
 				E3A6DAEE2DBCD56D0035B0CB /* CanvasView.swift in Sources */,
 				E3A6DAEF2DBCD56D0035B0CB /* iOSSample_1_CanvasEditorApp.swift in Sources */,
+				E3A6DAFA2DBCE3BD0035B0CB /* CanvasItemView.swift in Sources */,
 				E3A6DAF52DBCD5930035B0CB /* CanvasViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
